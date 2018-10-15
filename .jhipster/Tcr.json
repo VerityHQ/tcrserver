@@ -1,0 +1,31 @@
+{
+    "name": "Tcr",
+    "fields": [
+        {
+            "fieldName": "tcrHash",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tcrName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "content",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "bondingCurve",
+            "fieldType": "Long"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20181014061910",
+    "entityTableName": "tcr",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

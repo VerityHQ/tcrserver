@@ -1,0 +1,27 @@
+{
+    "name": "WalletToken",
+    "fields": [
+        {
+            "fieldName": "identityAddress",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "token",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "amount",
+            "fieldType": "Long"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20181014061912",
+    "entityTableName": "wallet_token",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

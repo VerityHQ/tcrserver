@@ -1,0 +1,31 @@
+{
+    "name": "TcrStake",
+    "fields": [
+        {
+            "fieldName": "amount",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "token",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "sharesIssued",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "ownerIdentity",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20181014061911",
+    "entityTableName": "tcr_stake",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

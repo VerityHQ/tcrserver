@@ -1,0 +1,121 @@
+entity Tcr {
+	tcrHash String,
+  tcrName String,
+  content String,
+  bondingCurve Long
+}
+
+entity TcrStake {
+  amount Long,
+  token String,
+  sharesIssued Long,
+  ownerIdentity String
+}
+
+entity WalletToken {
+  identityAddress String,
+	token String,
+  amount Long
+}
+
+// an ignored comment. Comment below becomes part of the docs
+/** The identity is composed of a chain and address similar to a DID */
+entity Identity {
+	chain String,
+	identityAddress String
+}
+
+// relationship OneToMany {
+// 	Identity{identityAddress} to WalletToken,
+//   Tcr{tcrHash} to TcrStake
+// }
+
+/**
+ * The Identity Profile.
+ */
+entity IdentityProfile {
+	firstName String,
+	lastName String,
+	email String,
+  redditUrl String	
+}
+
+
+// /**
+//  * Task entity.
+//  * @author The JHipster team.
+//  */
+// entity Task {
+// 	title String,
+// 	description String
+// }
+
+
+// entity Job {
+// 	jobTitle String,
+// 	minSalary Long,
+// 	maxSalary Long
+// }
+
+// entity JobHistory {
+// 	startDate Instant,
+// 	endDate Instant,
+// 	language Language
+// }
+
+// enum Language {
+//     FRENCH, ENGLISH, SPANISH
+// }
+
+// relationship OneToOne {
+// 	Country{region} to Region
+// }
+
+// relationship OneToOne {
+// 	Location{country} to Country
+// }
+
+// relationship OneToOne {
+// 	Department{location} to Location
+// }
+
+// relationship ManyToMany {
+// 	Job{task(title)} to Task{job}
+// }
+
+// // defining multiple OneToMany relationships with comments
+// relationship OneToMany {
+// 	Employee{job} to Job,
+// 	/**
+// 	* A relationship
+// 	*/
+// 	Department{employee} to
+// 	/**
+// 	* Another side of the same relationship
+// 	*/
+// 	Employee
+// }
+
+// relationship ManyToOne {
+// 	Employee{manager} to Employee
+// }
+
+// // defining multiple oneToOne relationships
+// relationship OneToOne {
+// 	JobHistory{job} to Job,
+// 	JobHistory{department} to Department,
+// 	JobHistory{employee} to Employee
+// }
+
+// Set pagination options
+// paginate JobHistory, Employee with infinite-scroll
+// paginate Job with pagination
+
+// paginate Tcr with infinite-scroll
+
+//dto * with mapstruct
+
+// // Set service options to all except few
+// service all with serviceImpl except Employee, Job
+// // Set an angular suffix
+// angularSuffix * with mySuffix

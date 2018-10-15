@@ -1,0 +1,33 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "site.verity.tcr"
+    },
+    "jhipsterVersion": "5.4.2",
+    "applicationType": "monolith",
+    "baseName": "tcrserver",
+    "packageName": "site.verity.tcr",
+    "packageFolder": "site/verity/tcr",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YzdiNWU5N2IxZWVlN2ZhNDIyMzM4YTIxMTEzYWYxYzI5MDYzNmI1OGZiYmRhYmM0ZWI1ZmIzOTQ2NjFmYjM0YWYxMmEzMjNkMjI4MjAyNGM3NGY5YmUwNDVkMDdkZTEwNjQ0MDZjMGM2NGE2NzRjNzQwZjExZmNiYjAyMDc3ZGI=",
+    "clientFramework": "react",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}
